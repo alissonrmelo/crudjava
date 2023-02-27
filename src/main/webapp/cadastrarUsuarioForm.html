@@ -1,0 +1,45 @@
+<div class="col-xs-12 col-sm-12">
+	<h1>Cadastrar Usuário</h1>		
+	<form class="row" action="insertUsuario.jsp" method="post" style="margin-bottom: 10px;">
+		<div class="form-group col-xs-12 col-sm-8">
+		  <label for="nome">Nome</label>
+		  <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+		</div>
+		<div class="form-group col-xs-12 col-sm-2">
+		  <label for="sexo">Sexo</label>
+		  <select name="sexo" id="sexo" class="form-control">
+		  	<option value="Masculino">Masculino</option>
+		  	<option value="Feminino">Feminino</option>		    	
+		  </select>
+		</div>
+		<div class="form-group col-xs-12 col-sm-2">
+		  <label for="dtNascimento">Data de Nascimento</label>
+		  <input type="text" class="form-control" name="dtNascimento" id="dtNascimento" placeholder="Data de Nascimento">
+		</div>
+		<div class="form-group col-xs-12 col-sm-4">
+		  <label for="cargo">Cargo</label>
+		  <select name="cargo" id="cargo" class="form-control">
+		  	<option value=""></option>		    
+		  	<option value="Desenvolverdor Junor">Desenvolvedor Junior</option>
+		  	<option value="Desenvolvedor Pleno">Desenvolvedor Pleno</option>		    	
+		  	<option value="Desenvolvedor Senior">Desenvolvedor Senior</option>		    	
+		  	<option value="Desenvolvedor Master">Desenvolvedor Master</option>		    	
+		  </select>
+		</div>
+		<div class="form-group col-xs-12 col-sm-4">
+		  <label for="lotacao">Lotação</label>
+		  <input type="text" class="form-control" name="lotacao" id="lotacao" placeholder="Lotação">
+		</div>
+		<div class="form-group col-xs-12 col-sm-4">
+		  <label for="email">E-mail</label>
+		  <input type="email" class="form-control" name="email" id="email" placeholder="E-mail">
+		</div>		  
+		<div class="form-group col-xs-12 col-sm-4">
+		  <label for="telefone">Nº Telefone</label>
+		  <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Nº Telefone">
+		</div>		  		  
+		<div class="col-xs-12 col-sm-12">		  
+		  <button type="submit" class="btn btn-primary">Cadastrar</button>
+		</div>
+	</form>
+</div>
