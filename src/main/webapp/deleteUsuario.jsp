@@ -5,4 +5,4 @@
 <%
 	int i = UsuarioDAO.deleteUsuario(u);
 	response.sendRedirect("usuariosCadastrados.jsp");
-%>a
+%>

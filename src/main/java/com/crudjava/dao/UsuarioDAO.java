@@ -15,7 +15,6 @@ public class UsuarioDAO {
 		Connection conn = null;
 		
 		try {
-			// Permite que a classe seja carregada pela JVM
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sisrh", "root", "");
 		}catch (Exception e){
